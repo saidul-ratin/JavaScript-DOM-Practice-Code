@@ -1914,7 +1914,7 @@ do {
 // নিয়ম	                         ব্যাখ্যা
 // কোড আগে চলে	              condition পরে চেক হয়
 // অন্তত ১ বার চলবে	             condition false হলেও
-// update নিজে দিতে হয়	         না দিলে loop থামবে না
+// update নিজে দিতে হয়	        না দিলে loop থামবে না
 
 
 
@@ -2096,7 +2096,7 @@ greet();     */
 
 // নিয়ম	                                         ব্যাখ্যা
 // Function call না করলে চলবে না	              শুধু বানালে কাজ করবে না
-// Parameter না দিলেও function চলবে	            কিন্তু value undefined হবে
+// Parameter না দিলেও function চলবে	             কিন্তু value undefined হবে
 // Return দিলে value পাওয়া যায়	                 না দিলে undefined return হয়
 
 
@@ -5749,6 +5749,27 @@ listItems.forEach(function(item) {
         console.log('Classes:', event.target.className);// clicked element-এর class
     });
 });         */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
