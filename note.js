@@ -808,15 +808,15 @@ console.log(obj1.name); // Karim  */
 
 // 1️. Arithmetic Operators (গণিত)
 
-/* Operator	                অর্থ	                                উদাহরণ	            ফলাফল
-   +	                      যোগ	                               5 + 3                  8
-   -	                     বিয়োগ	                                 5 - 3	              2
-   *	                      গুণ	                                5 * 3	             15
-   /	                      ভাগ	                               15 / 3	             5
-   %	                     ভাগশেষ	                              10 % 3	             1
-   **	                ঘাত (Power, ES6+)	                        2 ** 3	              8
-   ++	          1 বৃদ্ধি (pre/post increment)	                     ++x, x++	               x + 1
-   --	          1 হ্রাস (pre/post decrement)	                    --x, x--	              x - 1          */
+/* Operator	                অর্থ	                              উদাহরণ	            ফলাফল
+   +	                      যোগ	                              5 + 3                   8
+   -	                     বিয়োগ	                              5 - 3	                 2
+   *	                      গুণ	                               5 * 3	                15
+   /	                      ভাগ	                               15 / 3	                5
+   %	                     ভাগশেষ	                             10 % 3	                1
+   **	                ঘাত (Power, ES6+)	                       2 ** 3	                8
+   ++	          1 বৃদ্ধি (pre/post increment)	                    ++x, x++	            x + 1
+   --	          1 হ্রাস (pre/post decrement)	                   --x, x--	             x - 1          */
 
 
 // Note: JS-এ integer division operator // নেই।
@@ -886,23 +886,23 @@ console.log(obj1.name); // Karim  */
 
 // Unary Operators (একক মানের অপারেশন)
 
-/*  Operator	              অর্থ	                         উদাহরণ	                  ফলাফল
+/*  Operator	              অর্থ	                         উদাহরণ	                    ফলাফল
 
-  +	                        ধন চিহ্ন	                           +5	                            5
+  +	                        ধন চিহ্ন	                        +5	                       5
 
-  -	                        ঋণ চিহ্ন	                          -5	                           -5
+  -	                        ঋণ চিহ্ন	                        -5	                      -5
 
-  ++	                         1 বৃদ্ধি	                         ++x / x++  	               x + 1
+  ++	                         1 বৃদ্ধি	                      ++x / x++  	               x + 1
 
-  --	                         1 হ্রাস	                        --x / x--	                    x - 1
+  --	                         1 হ্রাস	                      --x / x--	                x - 1
 
-  !	                      লজিক্যাল না	                        !true	                         false
+  !	                      লজিক্যাল না	                       !true	                   false
 
-  typeof	                ডেটার টাইপ	                       typeof 5	                 "number"
+  typeof	                ডেটার টাইপ	                      typeof 5	               "number"
  
-  void	       expression result undefined করে	          void(0)	                       undefined
+  void	       expression result undefined করে	            void(0)	                 undefined
  
-  delete	           অবজেক্ট প্রপার্টি মুছে দেয়                    delete obj.prop	           true / false                */
+  delete	           অবজেক্ট প্রপার্টি মুছে দেয়                delete obj.prop	           true / false                */
 
 
 
@@ -1354,8 +1354,8 @@ switch (a + b) {
 
 // বিষয়	                    Switch	                       If-Else
 // Exact value check	        ভালো	                       সম্ভব
-// Range check (>, <)	         না	                              ভালো
-// অনেক condition	            পরিষ্কার	                        বড় হয়ে যায়
+// Range check (>, <)	         না	                          ভালো
+// অনেক condition	          পরিষ্কার	                      বড় হয়ে যায়
 
 
 
@@ -1465,7 +1465,7 @@ switch (a + b) {
 // Increment ও Decrement
 
 // ধরন	                         কোড	                   কাজ
-// Increment (বাড়ানো)	          i++	             প্রতি ধাপে ১ করে বাড়ে
+// Increment (বাড়ানো)	            i++	             প্রতি ধাপে ১ করে বাড়ে
 // Decrement (কমানো)	           i--	            প্রতি ধাপে ১ করে কমে
 
 
@@ -1590,7 +1590,7 @@ switch (a + b) {
 // Feature	                      Break	                                  Continue
 // কাজ	                      লুপ সম্পূর্ণ বন্ধ                     শুধু current iteration skip, লুপ চলবে
 // ব্যবহার	                শর্ত মিলে লুপ শেষ করতে	              শর্ত মিলে step বাদ দিতে
-// Effect on Loop	           লুপ থেমে যাবে	                   লুপ চলবে, পরবর্তী iteration চালু
+// Effect on Loop	            লুপ থেমে যাবে	                     লুপ চলবে, পরবর্তী iteration চালু
 
 
 
@@ -1840,7 +1840,7 @@ do {
 
 // কীভাবে কাজ করে (Step by Step)
 
-// Step	                  কী হয়
+// Step	                   কী হয়
 // ১	                     কোড block প্রথমে execute হয়
 // ২	                     তারপর condition চেক হয়
 // ৩	                     condition true হলে আবার block চলে
@@ -1992,7 +1992,7 @@ do {
 
 // নাম	                               মানে
 // Parameter	                         Function বানানোর সময় যে ভ্যারিয়েবল দেই
-// Argument	                         Function call করার সময় যে মান পাঠাই
+// Argument	                           Function call করার সময় যে মান পাঠাই
 
 
  
@@ -2832,10 +2832,10 @@ console.log(index); // 2        */
 // Method	                  কাজ
 // at()	                    নির্দিষ্ট index এর মান দেয়
 // concat()	                array জোড়া দেয়
-// every()	                  সব item শর্ত মানে কিনা চেক
+// every()	                সব item শর্ত মানে কিনা চেক
 // filter()	                শর্ত মানা item নিয়ে নতুন array
 // find()	                  প্রথম মেলা item
-// findIndex()	              প্রথম মেলা item এর index
+// findIndex()	            প্রথম মেলা item এর index
 
  
 
@@ -3104,11 +3104,11 @@ console.log(fruits); // ["Apple", "Banana", "Mango"]         */
 // reverse()	          উল্টে দেয়
 // shift()	            শুরু থেকে বাদ
 // slice()	            অংশ কেটে নতুন array
-// some()	             কোনো item শর্ত মানে কিনা
-// sort()	             সাজায়
-// splice()	           মুছে/যোগ করে
-// toString()	         string বানায়
-// unshift()	         শুরুতে যোগ
+// some()	              কোনো item শর্ত মানে কিনা
+// sort()	              সাজায়
+// splice()	            মুছে/যোগ করে
+// toString()	          string বানায়
+// unshift()	          শুরুতে যোগ
 
 
 
@@ -3435,13 +3435,13 @@ console.log(fruits); // ["Apple", "Banana", "Mango"]         */
 // split()	                 string → array
 // substring()	             অংশ নেয় (negative ছাড়া)
 // toLowerCase()	           ছোট হাতের
-// toUpperCase()	            বড় হাতের
-// trim()	                    দুই পাশের স্পেস বাদ
-// trimStart()	              শুরুর স্পেস বাদ
-// trimEnd()	                শেষের স্পেস বাদ
-// valueOf()	                আসল string মান
-// toString()	                string বানায়
-// length	                    কয়টা character
+// toUpperCase()	           বড় হাতের
+// trim()	                   দুই পাশের স্পেস বাদ
+// trimStart()	             শুরুর স্পেস বাদ
+// trimEnd()	               শেষের স্পেস বাদ
+// valueOf()	               আসল string মান
+// toString()	               string বানায়
+// length	                   কয়টা character
 
 
 
@@ -3489,14 +3489,14 @@ console.log(fruits); // ["Apple", "Banana", "Mango"]         */
 // Date থেকে মান বের করা
 
 // Method	                                 Description	                                Example
-// getFullYear()                            বছর	                                        now.getFullYear() → 2026
-// getMonth()	                              মাস (0-11)	                                now.getMonth() → 0 (Jan)
-// getDate()	                              মাসের দিন (1-31)	                           now.getDate() → 31
-// getDay()	                                সপ্তাহের দিন (0-6, Sun-Sat)	                  now.getDay() → 6 (Sat)
-// getHours()	                              ঘণ্টা (0-23)	                                now.getHours() → 14
-// getMinutes()	                            মিনিট (0-59)	                               now.getMinutes() → 30
+// getFullYear()                            বছর	                                       now.getFullYear() → 2026
+// getMonth()	                              মাস (0-11)	                               now.getMonth() → 0 (Jan)
+// getDate()	                              মাসের দিন (1-31)	                          now.getDate() → 31
+// getDay()	                                সপ্তাহের দিন (0-6, Sun-Sat)	                 now.getDay() → 6 (Sat)
+// getHours()	                              ঘণ্টা (0-23)	                               now.getHours() → 14
+// getMinutes()	                            মিনিট (0-59)	                              now.getMinutes() → 30
 // getSeconds()	                            সেকেন্ড (0-59)	                             now.getSeconds() → 15
-// getMilliseconds()	                      মিলিসেকেন্ড (0-999)	                          now.getMilliseconds() → 500
+// getMilliseconds()	                      মিলিসেকেন্ড (0-999)	                         now.getMilliseconds() → 500
 // getTime()	                              timestamp (ms)	                            now.getTime() → 1675177800000
 
 
@@ -4972,7 +4972,7 @@ border-radius → borderRadius
 | style property              | classList |
 |-----------------------------|-----------|
 | Inline CSS যোগ করে         | CSS class যোগ করে |
-| ছোট style change এ ভালো     | বড় design change এ ভালো |
+| ছোট style change এ ভালো    | বড় design change এ ভালো |
 | Harder to maintain          | Cleaner & reusable |
 
 
@@ -5256,10 +5256,10 @@ createElement() হলো DOM method যা দিয়ে JavaScript নতুন
 // --------------------------------------------------
 // 4️. append() vs appendChild()
 // --------------------------------------------------
-// | Feature              | append()        | appendChild() |
+// | Feature              | append()       | appendChild() |
 // |----------------------|----------------|---------------|
-// | একাধিক element যোগ   | Yes            | No            |
-// | Text node যোগ        | Yes            | No            |
+// | একাধিক element যোগ  | Yes            | No            |
+// | Text node যোগ       | Yes            | No            |
 // | Return value         | Nothing        | Appended node |
 // | Modern method        | Yes            | Older method  |
 
@@ -5402,10 +5402,10 @@ item.remove();  // Item 2 removed
 --------------------------------------------------
 | Feature                 | removeChild()         | remove()           |
 |-------------------------|-----------------------|--------------------|
-| কে call করে             | Parent element        | Target element     |
-| Parent reference দরকার  | Yes                   | No                 |
+| কে call করে             | Parent element        | Target element    |
+| Parent reference দরকার  | Yes                   | No                |
 | Modern / Old            | Older method          | Modern method      |
-| Easy to use             | একটু বেশি code লাগে  | সহজ ও clean        |
+| Easy to use             | একটু বেশি code লাগে    | সহজ ও clean      |
 
 
 
