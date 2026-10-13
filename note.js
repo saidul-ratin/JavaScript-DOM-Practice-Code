@@ -809,14 +809,14 @@ console.log(obj1.name); // Karim  */
 // 1️. Arithmetic Operators (গণিত)
 
 /* Operator	                অর্থ	                              উদাহরণ	            ফলাফল
-   +	                      যোগ	                              5 + 3                   8
+   +	                      যোগ	                              5 + 3                  8
    -	                     বিয়োগ	                              5 - 3	                 2
    *	                      গুণ	                               5 * 3	                15
-   /	                      ভাগ	                               15 / 3	                5
-   %	                     ভাগশেষ	                             10 % 3	                1
+   /	                      ভাগ	                              15 / 3	                5
+   %	                     ভাগশেষ	                            10 % 3	                1
    **	                ঘাত (Power, ES6+)	                       2 ** 3	                8
-   ++	          1 বৃদ্ধি (pre/post increment)	                    ++x, x++	            x + 1
-   --	          1 হ্রাস (pre/post decrement)	                   --x, x--	             x - 1          */
+   ++	          1 বৃদ্ধি (pre/post increment)	                   ++x, x++	              x + 1
+   --	          1 হ্রাস (pre/post decrement)	                  --x, x--	             x - 1          */
 
 
 // Note: JS-এ integer division operator // নেই।
@@ -840,7 +840,7 @@ console.log(obj1.name); // Karim  */
 
  %=	          ভাগশেষ করে আপডেট	           x %= 3 → x = x % 3
 
- **=	          ঘাত করে আপডেট	             x **= 3 → x = x ** 3              */
+ **=	         ঘাত করে আপডেট	             x **= 3 → x = x ** 3              */
 
 
 
@@ -1084,7 +1084,7 @@ if (x > 5) {
 
 // Concept	                               Explanation
 // if	                                     Condition true হলে execute হয়
-// else	                               Condition false হলে execute হয়
+// else	                                   Condition false হলে execute হয়
 // {}	                                     Code block, optional for single statement, required for multiple statements
 // Boolean                                 condition	if এর condition অবশ্যই true/false দেওয়া হবে
 // Execution order                         সবসময় উপরের if check → true হলে execute → false হলে else execute  
@@ -1337,7 +1337,7 @@ switch (a + b) {
 
 // পরিস্থিতি	                           switch ভালো?
 
-// Exact value check	                   হ্যাঁ
+// Exact value check	                       হ্যাঁ
 
 // Mark > 80 এর মতো range	           না (if-else ব্যবহার করো)
 
@@ -1853,7 +1853,7 @@ do {
 
 // বিষয়	                  while loop	                  do...while loop
 // condition চেক	          আগে	                          পরে
-// minimum run        ০ বারও হতে পারে	              কমপক্ষে ১ বার চলবে
+// minimum run        ০ বারও হতে পারে	                কমপক্ষে ১ বার চলবে
 
 
 
@@ -2096,7 +2096,7 @@ greet();     */
 
 // নিয়ম	                                         ব্যাখ্যা
 // Function call না করলে চলবে না	              শুধু বানালে কাজ করবে না
-// Parameter না দিলেও function চলবে	             কিন্তু value undefined হবে
+// Parameter না দিলেও function চলবে	            কিন্তু value undefined হবে
 // Return দিলে value পাওয়া যায়	                 না দিলে undefined return হয়
 
 
@@ -5749,27 +5749,6 @@ listItems.forEach(function(item) {
         console.log('Classes:', event.target.className);// clicked element-এর class
     });
 });         */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
